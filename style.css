@@ -38,7 +38,7 @@ body {
     padding: 0rem 5rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7.5px;
     overflow-y: hidden !important;
 
     @media screen and (max-width: 768px) {
@@ -47,7 +47,7 @@ body {
 }
 
 #horizontal_space {
-    height: 0.1%;
+    height: 5%;
 }
 
 .profile-card__img img {
