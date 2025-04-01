@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div id="back" class="back-button" onclick="goBack()">
+        <span class="material-icons">arrow_back</span> Back
+    </div>
+    <div class="profile-card">
+        <div class="profile-card__desc">
+            <h1 id="educ">Education</h1>
+        </div>
+        <div class="profile-card__info">
+            <div>
+                <div id="ahrDate">06.2015</div>
+                <div id="ahr">Allgemeine Hochschulreife (Abitur)</div>
+            </div>
+            <div>
+                <div id="bscDate">09.2021</div>
+                <div id="bsc">B. Sc. in Bioinformatics</div>
+            </div>
+            <div>
+                <div id="mscDate">09.2024</div>
+                <div id="msc">M. Sc. in Bioinformatics</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
