@@ -32,7 +32,7 @@ body {
     border-radius: 0px;
     width: 640px;
     height: 110%;
-    position: relative;
+    position: absolute;
     -webkit-backdrop-filter: blur(5px);
     border: 2px solid #ffffff79;
     padding: 0rem 5rem;
@@ -44,6 +44,10 @@ body {
     @media screen and (max-width: 768px) {
         width: 80%;
     }
+}
+
+#horizontal_space {
+    height: 20%;
 }
 
 .profile-card__img img {
