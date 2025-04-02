@@ -50,6 +50,19 @@ body {
     height: 5%;
 }
 
+#abschlussDate {
+    color: #111111;
+}
+#abschluss {
+    color: #111111;
+}
+#thesis_title {
+    color: #111111;
+}
+#thesis_text {
+    color: #111111;
+}
+
 .profile-card__img img {
     margin: auto;
     width: 200px;
