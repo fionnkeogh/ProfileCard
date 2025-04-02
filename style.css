@@ -36,6 +36,11 @@ body {
     width: 640px;
     height: 110%;
     position: absolute;
+    -webkit-backdrop-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border: 2px solid #ffffff79;
     padding: 0rem 5rem;
     display: flex;
@@ -47,13 +52,6 @@ body {
         height: 110%;
         width: 80%;
     }
-}
-.profile-card::before {
-    -webkit-backdrop-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    backdrop-filter: blur(5px);
 }
 
 #horizontal_space {
