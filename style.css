@@ -58,7 +58,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1px;
     overflow-y: hidden !important;
     h3 {
         font-size: 1.7rem;
