@@ -132,7 +132,7 @@ body {
     }
 }
 
-#place {
+#currentPlace {
     @media screen and (max-width: 576px){
         display:none; 
     }
@@ -243,6 +243,7 @@ body {
     width: 45px; /* Größe des Buttons */
     height: 35px; /* Größe des Buttons */
     padding: 0;
+    z-index: -1;
     background-position: 0px center; /* Verschiebung der Flagge nach rechts */
     border: none;
     border-radius: 20%; /* Runde Form */
