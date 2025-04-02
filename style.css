@@ -41,6 +41,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 768px) {
+        min-height: 80vh;
+        max-height: 80vh;
+        width: 80%;
+    }
 }
 
 .profile-card {
@@ -62,7 +67,7 @@ body {
     overflow-y: hidden !important;
 
     @media screen and (max-width: 768px) {
-        height: 110%;
+        height: 80vh;
         width: 80%;
     }
 }
