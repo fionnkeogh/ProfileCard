@@ -89,15 +89,18 @@ body {
             font-size: 20px;
         }
     }
+    @media screen and (max-width: 768px) {
+        gap: 20px; 
+    }
 }
 
 .profile-card__info {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
 
     @media screen and (max-width: 576px){
-        gap: 30px; 
+        gap: 20px; 
     }
 
     & > div { 
