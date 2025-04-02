@@ -123,6 +123,12 @@ body {
     }
 }
 
+#currentPosition {
+    @media screen and (max-width: 576px){
+        display:none; 
+    }
+}
+
 .profile-card__social {
     display: flex;
     justify-content: center;
